@@ -60,6 +60,7 @@
 		1866AE0A1B5898ED005BAD80 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866AE091B5898ED005BAD80 /* libresolv.dylib */; };
 		1866AE0C1B5898F4005BAD80 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866AE0B1B5898F4005BAD80 /* libxml2.2.dylib */; };
 		1869258D1B60846600AFA564 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869258C1B60846600AFA564 /* Tools.m */; };
+		188436F51B846280006C1E78 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188436F41B846280006C1E78 /* BaseViewController.m */; };
 		188B794E1B5E1E28009742FD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B79431B5E1E28009742FD /* FMDatabase.m */; };
 		188B794F1B5E1E28009742FD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B79451B5E1E28009742FD /* FMDatabaseAdditions.m */; };
 		188B79501B5E1E28009742FD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B79471B5E1E28009742FD /* FMDatabasePool.m */; };
@@ -423,6 +424,8 @@
 		1866AE0B1B5898F4005BAD80 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		1869258B1B60846600AFA564 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		1869258C1B60846600AFA564 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		188436F31B846280006C1E78 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		188436F41B846280006C1E78 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		188B79421B5E1E28009742FD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		188B79431B5E1E28009742FD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		188B79441B5E1E28009742FD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -1172,6 +1175,8 @@
 				188B79541B5E1EE8009742FD /* dataBaseManger */,
 				18A975DB1B57A0AF00C010C9 /* AppDelegate.h */,
 				18A975DC1B57A0AF00C010C9 /* AppDelegate.m */,
+				188436F31B846280006C1E78 /* BaseViewController.h */,
+				188436F41B846280006C1E78 /* BaseViewController.m */,
 				1869258B1B60846600AFA564 /* Tools.h */,
 				1869258C1B60846600AFA564 /* Tools.m */,
 				18A975E11B57A0AF00C010C9 /* Main.storyboard */,
@@ -2472,6 +2477,7 @@
 				1866ADD71B5897DA005BAD80 /* XMPPJID.m in Sources */,
 				18A975DA1B57A0AF00C010C9 /* main.m in Sources */,
 				188B79521B5E1E28009742FD /* FMResultSet.m in Sources */,
+				188436F51B846280006C1E78 /* BaseViewController.m in Sources */,
 				1866ADEE1B5897DA005BAD80 /* NSString+DDXML.m in Sources */,
 				75E97D821B5A308A0023B61B /* XMPPvCardTempTel.m in Sources */,
 				75E97D5A1B5A308A0023B61B /* XMPPRoster.xcdatamodel in Sources */,
